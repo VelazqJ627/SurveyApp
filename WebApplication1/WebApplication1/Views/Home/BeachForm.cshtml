@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewBag.Title = "BeachForm";
+}
+
+<div class="row">
+    <div class="col col-lg-12">
+        <img src="~/Content/materialize/images/16.png" class="center-align responsive-img"> <!-- random image -->
+        <div class="caption center-align"></div>
+    </div>
+</div>
+
+<div>
+
+    <div class="row">
+        <div class="col s12 m6 l6">
+            <div class="card indigo darken-4">
+                <div class="card-content white-text">
+                    <span class="card-title">Beach Party</span>
+                    <p>
+                         A social event at which participants dance to music on a dance floor covered in several feet of suds or bubbles, dispensed from a foam machine.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="right-align">
+            <h5 class="left-align">Please Fill out this Form!</h5>
+            <form class="col s12 m6 l6 left-align" action="InsertBeach">
+                <div class="input-field">
+                    <input placeholder="800 Number" id="BschoolId" type="text" class="validate" name="BschoolId" />
+
+                </div>
+                <div class="input-field">
+                    <input placeholder="First Name" id="BfirstName" type="text" class="validate" name="BfirstName" />
+
+                </div>
+                <div class="input-field">
+                    <input placeholder="Last Name" id="BlastName" type="text" class="validate" name="BlastName" />
+
+                </div>
+                <div class="input-field">
+                    <input placeholder="Major" id="BMajor" type="text" class="validate" name="BMajor" />
+
+                </div>
+                <button class="btn waves-effect waves-light" type="Reset" value="Reset" name="action" style="right: 20px;">Reset</button>
+
+                <button class="btn waves-effect waves-light" type="Submit" value="Submit" name="action">Send</button>
+            </form>
+        </div>
+    </div>
+</div>
+

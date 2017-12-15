@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="~/Content/materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    <script src="~/Scripts/materialize/init.js" type="text/javascript"></script>
+    <script src="~/Scripts/materialize/materialize.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/materialize/materialize.js" type="text/javascript"></script>
+    <link href="~/Content/materialize/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+<body style="padding-top: 0px;">
+    <div class="navbar-fixed">
+    <nav role="navigation" class="indigo darken-4">
+        <div class="nav-wrapper container">
+            <a href="Index" class="brand-logo center"><img src="~/Content/materialize/images/logo.png"></a>
+            <ul class="right hide-on-med-and-down white-text">
+                <li><a href="Index" class="white-text">Comedy</a></li>
+                <li><a href="Index" class="white-text">Music</a></li>
+                <li><a href="Index" class="white-text">Dance</a></li>
+            </ul>
+            <ul class="side-nav" id="nav-mobile">
+                <li><a href="#C">Comedy</a></li>
+                <li><a href="#M">Music</a></li>
+                <li><a href="#D">Dance</a></li>
+            </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse white-text">
+                <i class="material-icons">menu</i>
+            </a>
+        </div>
+    </nav>
+    </div>
+
+    <div class="container body-content">
+        @RenderBody()
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+    
+</body>
+</html>

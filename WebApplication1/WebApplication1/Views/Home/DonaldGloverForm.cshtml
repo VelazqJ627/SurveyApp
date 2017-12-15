@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewBag.Title = "DonaldGloverForm";
+}
+
+
+
+<div class="row">
+    <div class="col col-lg-12">
+        <img src="~/Content/materialize/images/10.png" class="center-align responsive-img"> <!-- random image -->
+        <div class="caption center-align"></div>
+    </div>
+</div>
+
+<div>
+
+    <div class="row">
+        <div class="col s12 m6 l6">
+            <div class="card indigo darken-4">
+                <div class="card-content white-text">
+                    <span class="card-title">Donald Glover</span>
+                    <p>
+                        Donald McKinley Glover was born at the Edwards Air Force Base, California, and was raised in Stone Mountain, Georgia. His mother, Beverly (Smith), ran a daycare center, and his father, Donald Glover, was a postal worker. He is not, despite rumors, related to actor Danny Glover. Donald graduated from New York University with a degree in Dramatic Writing in 2006.
+
+                        Glover worked as a writer for the NBC comedy 30 Rock (2006), for which he also received a Writers Guild of America Award nomination in 2009. He is best known for his role as Troy on the comedy series Community (2009) in which he plays an athlete in a rather odd study group, opposite Chevy Chase and Joel McHale.
+
+                        Glover auditioned to play President Obama on Saturday Night Live in 2008, though he didn't get the role. His stand-up special aired on Comedy Central in March 2010
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="right-align">
+            <h5 class="left-align">Please Fill out this Form!</h5>
+            <form class="col s12 m6 l6 left-align" action="InsertDonaldGlover">
+            <div class="input-field">
+                <input placeholder="800 Number" id="DschoolId" type="text" class="validate" name="DschoolId" />
+               
+            </div>
+                <div class="input-field">
+                    <input placeholder="First Name" id="DfirstName" type="text" class="validate" name="DfirstName" />
+                    
+                </div>
+                <div class="input-field">
+                    <input placeholder="Last Name" id="DlastName" type="text" class="validate" name="DlastName" />
+                    
+                </div>
+                <div class="input-field">
+                    <input placeholder="Major" id="DMajor" type="text" class="validate" name="DMajor" />
+                    
+             </div>
+                <button class="btn waves-effect waves-light" type="Reset" value="Reset" name="action" style="right: 20px;">Reset</button>
+
+                <button class="btn waves-effect waves-light" type="Submit" value="Submit" name="action">Send</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+

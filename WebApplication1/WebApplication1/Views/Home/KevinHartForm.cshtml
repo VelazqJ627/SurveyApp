@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewBag.Title = "KevinHartForm";
+}
+
+<div class="row">
+    <div class="col col-lg-12">
+        <img src="~/Content/materialize/images/11.png" class="center-align responsive-img"> <!-- random image -->
+        <div class="caption center-align"></div>
+    </div>
+</div>
+
+<div>
+
+    <div class="row">
+        <div class="col s12 m6 l6">
+            <div class="card indigo darken-4">
+                <div class="card-content white-text">
+                    <span class="card-title">Kevin Hart</span>
+                    <p>
+                        Kevin Hart was born on July 6, 1979 in Philadelphia, Pennsylvania, USA. He is an actor and producer, known for Kevin Hart: Let Me Explain (2013), Ride Along (2014) and The Wedding Ringer (2015). He has been married to Eniko Parrish since August 13, 2016. He was previously married to Torrei Hart.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="right-align">
+            <h5 class="left-align">Please Fill out this Form!</h5>
+            <form class="col s12 m6 l6 left-align" action="InsertKevinHart">
+                <div class="input-field">
+                    <input placeholder="800 Number" id="KschoolId" type="text" class="validate" name="KschoolId" />
+
+                </div>
+                <div class="input-field">
+                    <input placeholder="First Name" id="KfirstName" type="text" class="validate" name="KfirstName" />
+
+                </div>
+                <div class="input-field">
+                    <input placeholder="Last Name" id="KlastName" type="text" class="validate" name="KlastName" />
+
+                </div>
+                <div class="input-field">
+                    <input placeholder="Major" id="KMajor" type="text" class="validate" name="KMajor" />
+
+                </div>
+                <button class="btn waves-effect waves-light" type="Reset" value="Reset" name="action" style="right: 20px;">Reset</button>
+
+                <button class="btn waves-effect waves-light" type="Submit" value="Submit" name="action">Send</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+

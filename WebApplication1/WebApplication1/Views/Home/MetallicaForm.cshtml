@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewBag.Title = "MetallicaForm";
+}
+
+<div class="row">
+    <div class="col col-lg-12">
+        <img src="~/Content/materialize/images/14.png" class="center-align responsive-img"> <!-- random image -->
+        <div class="caption center-align"></div>
+    </div>
+</div>
+
+<div>
+
+    <div class="row">
+        <div class="col s12 m6 l6">
+            <div class="card indigo darken-4">
+                <div class="card-content white-text">
+                    <span class="card-title">Metallica</span>
+                    <p>
+                        Metallica is an American heavy metal band based in San Rafael, California. The band was formed in 1981 in Los Angeles when vocalist/guitarist James Hetfield responded to an advertisement posted by drummer Lars Ulrich in a local newspaper. Metallica's current line-up comprises founding members Hetfield and Ulrich, longtime lead guitarist Kirk Hammett and bassist Robert Trujillo. Guitarist Dave Mustaine and bassists Ron McGovney, Cliff Burton and Jason Newsted are former members of the band.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="right-align">
+            <h5 class="left-align">Please Fill out this Form!</h5>
+            <form class="col s12 m6 l6 left-align" action="InsertMetallica">
+                <div class="input-field">
+                    <input placeholder="800 Number" id="MschoolId" type="text" class="validate" name="MschoolId" />
+
+                </div>
+                <div class="input-field">
+                    <input placeholder="First Name" id="MfirstName" type="text" class="validate" name="MfirstName" />
+
+                </div>
+                <div class="input-field">
+                    <input placeholder="Last Name" id="MlastName" type="text" class="validate" name="MlastName" />
+
+                </div>
+                <div class="input-field">
+                    <input placeholder="Major" id="MMajor" type="text" class="validate" name="MMajor" />
+
+                </div>
+                <button class="btn waves-effect waves-light" type="Reset" value="Reset" name="action" style="right: 20px;">Reset</button>
+
+                <button class="btn waves-effect waves-light" type="Submit" value="Submit" name="action">Send</button>
+            </form>
+        </div>
+    </div>
+</div>
+
